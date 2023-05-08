@@ -1,16 +1,31 @@
 INSERT INTO department(department_name)
-VALUES("Production"), ("Design"), ("Media"), ("Engineering"), ("Marketing");
+VALUES ("Engineering"),
+    ("Legal"),
+    ("Sales"),
+    ("Human Resources"),
+    ("Finance");
 
-INSERT INTO role(title, salary, department_id)
-VALUES("Designer", 80000, 2), ("Senior Designer", 120000, 2), ("President", 220000, 1), ("Intern", 30000, 4);
+INSERT INTO role (title, salary, department_id)
+VALUES ("Sales Lead", "90000", 3),
+("Salesperson", "60000", 3),
+("Lead Engineers", "180000", 1),
+("Software Engineer", "100000", 1),
+("Account Manager", "160000", 5),
+("Accountant", "125000", 5),
+("Legal Team Lead", "250000", 2),
+("Lawyer", "190000", 2);
 
-INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES ('Kat', 'Ruth', 1, 2), ('Bat', 'Snuth', 1, null), ('Gat', 'Proof', 1, 2), ('Sat', 'Truth', 2, 2), ('Lat', 'Couth', 4, null);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Jon", "Taylor", 1, null),
+("Brooklynn", "Arrington", 2, 1),
+("Annika", "Kunz", 3, null),
+("Mike", "Lemme", 4, 3),
+("Marie", "Jones", 5, null),
+("Jerry", "Bask", 6, 5),
+("Terri", "Bonnino", 7, null),
+("Kali", "Arrington", 8, 7);
 
--- designer = role_id 1
--- senior designer = role_id 2
--- president = role_id 3
--- intern = role_id 4
--- consultant = role_id 5
--- press = role_id 6
--- temp = role_id 7
+SELECT * FROM department;
+SELECT * FROM role;
+
+SELECT * FROM employee;
