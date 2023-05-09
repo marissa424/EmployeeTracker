@@ -5,14 +5,13 @@
     "main": "index.js",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/danwillett/Employee-Tracker.git"
+      "url": "git+https://github.com/marissa424/EmployeeTracker.git"
     },
-    "author": "danwillett",
-    "license": "MIT",
+    "author": "marssa424",
     "bugs": {
-      "url": "https://github.com/danwillett/Employee-Tracker/issues"
+      "url": "https://github.com/marissa424/EmployeeTracker/issues"
     },
-    "homepage": "https://github.com/danwillett/Employee-Tracker#readme",
+    "homepage": "https://github.com/marissa424/EmployeeTracker#readme",
     "dependencies": {
       "console.table": "^0.10.0",
       "dotenv": "^16.0.3",
